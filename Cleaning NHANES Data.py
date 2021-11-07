@@ -236,6 +236,7 @@ display(HTML(counts_df.to_html(index=True)))
 merged_df.to_pickle('./merged_df.pkl')
 
 
+
 #Adding gender variable
 
 demographic_data = pd.read_pickle('cleaned_demo_data.pkl')
@@ -244,3 +245,4 @@ demographic_data['gender'] = pd.Categorical(
     demographic_data['gender'].replace(
         {1.0 : 'female',
          2.0: 'male'}))
+
