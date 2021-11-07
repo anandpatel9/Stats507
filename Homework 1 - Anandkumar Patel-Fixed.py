@@ -7,6 +7,13 @@
 # ##### Date: 09 - 17 - 2021
 # ##### UMID: 6417 7534
 
+
+#### Submission Comments
+
+#Q0: -3 for not provide both raw and formatted versions.# 
+
+#I have added the raw version to this script# 
+
 # In[2]:
 
 
@@ -84,6 +91,13 @@ import numpy as np
 # **Part A - Recursive Fibonacci Sequence**
 
 # In[3]:
+
+
+
+
+
+
+#The rest is not needed, this is the full script. 
 
 
 def fib_rec(n):
