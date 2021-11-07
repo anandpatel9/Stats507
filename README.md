@@ -5,7 +5,9 @@ One can find a notebook regarding the data cleaning of the NHANES DataSet. Addit
 
 A link to the file can be found below: 
 
-[Cleaning NHANES Notebook](https://github.com/anandpatel9/Stats507/blob/main/Cleaning%20NHANES%20Data.ipynb)
+[Cleaning NHANES Notebook](https://github.com/anandpatel9/Stats507/blob/main/Cleaning%20NHANES%20Data.ipynb) 
+
+
 [Cleaning NHANES Python Script](https://github.com/anandpatel9/Stats507/blob/main/Cleaning%20NHANES%20Data.py)
 
 Finally, a folder regarding a Pandas Topic is available. In that folder, one can find the Notebook associated with the Pandas Topic along with a ReadMe.
