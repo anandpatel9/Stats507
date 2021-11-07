@@ -1,6 +1,36 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+
+#GSI Comments
+
+##Q1: -2 for not actually using the exists function
+
+
+## My Corrections: 
+
+def local_data(data_file, url, columns_needed):
+    file_exists = exists(data_file)
+    if file_exists == True:
+        data = pd.read_csv(data_file)
+        
+    else:
+        data = pd.read_csv(url)
+        data = data[columns_needed]
+    return data
+
+
+# In[10]:
+
+
+local_data('local_rec_2009_data_final.csv',
+          rec_data_2009_url,
+          ['DOEID', 'REGIONC', 'HDD65', 'CDD65', 'NWEIGHT' ])
+
+
+#These can be see in the workflow below
+
+
 # # Homework 3
 # 
 # 
@@ -73,6 +103,8 @@ from scipy.stats import norm
 # *Setting Up Files*
 
 # *Reading In 2009 Data* 
+
+
 
 # In[2]:
 
