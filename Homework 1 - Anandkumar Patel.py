@@ -9,6 +9,13 @@
 
 # In[85]:
 
+#### Submission Comments
+
+#Q0: -3 for not provide both raw and formatted versions.# 
+
+#I have added the raw version to this script# 
+
+
 
 import math
 import pandas as pd
@@ -45,7 +52,35 @@ import numpy as np
 # 2. Item 2 
 # 3. Item 3
 # 
+# # *Raw Version*
+
+# ```
+# This is *question 0* for
+# <a href="https://jbhender.github.io/Stats507/F21/ps/ps1.html">*problem set 1*</a> of 
+# <a href="https://jbhender.github.io/Stats507/F21/">Stats 507</a>. 
 # 
+# # | Question 0 is about markdown
+# 
+# The next question is about the **Fibonacci sequence**, $F_n = F_{n - 2} + F_{n-1}$. In part **a** we will define a python function ```fib_rec()```. 
+# 
+# Below is a...
+# 
+# ### Level 3 Header
+# 
+# Next, we can make a bulleted list:
+# - Item 1 <br>
+#     -  detail 1
+#     -  detail 2 <br>
+# - Item 2
+# 
+# <br> Finally, we can make an enumerated list:
+# 
+# 1. Item 1 
+# 2. Item 2 
+# 3. Item 3
+# 
+# 
+# ```
 # 
 
 # **Question 1 - Fibonacci Sequence**
