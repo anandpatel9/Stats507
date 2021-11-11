@@ -10,6 +10,11 @@
 # 
 # UMID: 6417 7534
 
+#GSI Comments
+
+##Q1: -2 for not actually using the exists function
+
+
 # #### Question 0 - RECS and Replicates Weights 
 # 
 # 
@@ -231,23 +236,22 @@ recs_2015_data_cleaned.to_csv('local_rec_2015_data_final.csv')
 # In[20]:
 
 
-def file_exists(data_file, url, regex):
+def local_data(data_file, url, columns_needed):
     file_exists = exists(data_file)
     if file_exists == True:
         data = pd.read_csv(data_file)
         
     else:
         data = pd.read_csv(url)
-        data = data.filter(regex = regex)
+        data = data[columns_needed]
     return data
-
 
 # In[21]:
 
 
-# file_exists('local_rec_2015_data_final.csv',
-#             rec_data_2009_url,
-#             regex = r'(DOEID|REGIONC|HDD65|CDD65|NWEIGHT|BRRWT.)')
+file_exists('local_rec_2015_data_final.csv',
+            rec_data_2009_url,
+            regex = r'(DOEID|REGIONC|HDD65|CDD65|NWEIGHT|BRRWT.)')
 
 
 # **Part B - Replicate Weights**
