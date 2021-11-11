@@ -54,7 +54,7 @@ import numpy as np
 # 
 # # *Raw Version*
 
-# ```
+## ```
 # This is *question 0* for
 # <a href="https://jbhender.github.io/Stats507/F21/ps/ps1.html">*problem set 1*</a> of 
 # <a href="https://jbhender.github.io/Stats507/F21/">Stats 507</a>. 
