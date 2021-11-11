@@ -7,8 +7,6 @@ Additionally, the original data files are available.
 
 A link to the file can be found below: 
 
-[Cleaning NHANES Notebook](https://github.com/anandpatel9/Stats507/blob/main/Cleaning%20NHANES%20Data.ipynb) 
-
 
 [Cleaning NHANES Python Script](https://github.com/anandpatel9/Stats507/blob/main/Cleaning%20NHANES%20Data.py)
 
